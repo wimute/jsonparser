@@ -658,7 +658,6 @@ func calcAllocateSpace(keys []string, setValue []byte, comma, object bool) int {
 		}
 	}
 
-
 	lk += len(setValue)
 	for i := 1; i < len(keys); i++ {
 		if string(keys[i][0]) == "[" {
